@@ -8,9 +8,10 @@ DiscordRPC.register(clientId)
 async function setActivity(party) {
 	if (!RPC) return;
 	RPC.setActivity({
-		details: `ᅠᅠᅠᅠᅠᅠᅠᅠ`,
+		// details: `ᅠᅠᅠᅠᅠᅠᅠᅠ`,
+		details: `💵💵💵`,
 		state: `Fix bugs`,
-		startTimestamp: Date.now(),
+		// startTimestamp: Date.now()
 		largeImageKey: 'pepe',
 		largeImageText: `Large Icon.`,
 		smallImageKey: `discord_verified`,
